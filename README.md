@@ -23,8 +23,9 @@ Frontend는 React를 이용하여 구현할 예정입니다.
 ```
 
 아직 고려 중인 내용
--[ ] Frontend와 Backend를 분리할 것인지
--[ ] Frontend와 Backend를 분리할 경우, Frontend는 어떤 방식으로 배포할 것인지
+
+- [ ] Frontend와 Backend를 분리할 것인지
+- [ ] Frontend와 Backend를 분리할 경우, Frontend는 어떤 방식으로 배포할 것인지
 
 3. SSE를 이용한 실시간 알림 기능 구현
 ```text

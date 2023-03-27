@@ -1,0 +1,15 @@
+# 참고용 Compose 파일입니다.
+
+version: "3"
+services:
+  backend:
+    environment:
+      SPRING_DATASOURCE_URL: ${DB_URL}
+      SPRING_DATASOURCE_USERNAME: ${DB_User}
+      SPRING_DATASOURCE_PASSWORD: ${DB_Password}
+
+    container_name: ${컨테이너명}
+    restart: always
+    image: ${Dockerhub_계정명}/${이미지명}
+    ports:
+      - 8080:8080
